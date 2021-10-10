@@ -21,7 +21,8 @@
         android:id="@+id/btres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#0076ff"
         android:text="REGISTRAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +36,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="394dp"
+        android:layout_marginBottom="300dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/btres"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,17 +48,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Nombre" />
+            android:text="Nombre"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#0076ff"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 
@@ -68,7 +70,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="2dp"
-        android:layout_marginBottom="319dp"
+        android:layout_marginBottom="300dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/btres"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,17 +82,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Apellido" />
+            android:text="Apellido"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edrr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#0076ff"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -98,7 +101,7 @@
         android:layout_width="403dp"
         android:layout_height="64dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="1dp"
         android:orientation="horizontal"
@@ -113,17 +116,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Telefono" />
+            android:text="Telefono"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edtel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#0076ff"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -131,7 +135,6 @@
         android:layout_width="408dp"
         android:layout_height="60dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="193dp"
         android:orientation="horizontal"
@@ -145,17 +148,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Correo" />
+            android:text="Correo"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edcorreo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#0076ff"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
