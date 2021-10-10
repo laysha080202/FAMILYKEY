@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_conexion.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_historial.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_juegos.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_paginaderegistro.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_paginaprincipal.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_registr.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_registro.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Laptop/AndroidStudioProjects/FAMILYKEY/app/src/main/res/layout/activity_registro1.xml" value="0.27291666666666664" />

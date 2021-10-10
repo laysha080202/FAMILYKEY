@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
    // Esta parte se refiere a la utilidad que va ir teniendo cada boton en la interaccion
-public class Registro extends AppCompatActivity {
+public class registr extends AppCompatActivity {
     EditText nombre, apellido, celular, correo;
     Button bt;
     @Override
@@ -20,10 +20,10 @@ public class Registro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registr);
 
-        nombre = findViewById(R.id.);
-        apellido = findViewById(R.id.);
-        celular = findViewById(R.id.);
-        correo= findViewById(R.id.);
+        nombre = findViewById(R.id.edname);
+        apellido = findViewById(R.id.edrr);
+        celular = findViewById(R.id.edtel);
+        correo= findViewById(R.id.edcorreo);
 
         bt = findViewById(R.id.btres);
 
@@ -37,11 +37,12 @@ public class Registro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                BASEDEDATOS admin = new BASEDEDATOS(Registro.this,"BASEDEDATOS", null, 1);
+                BASEDEDATOS admin = new BASEDEDATOS(registr.this,"BASEDEDATOS", null, 1);
                 SQLiteDatabase BD = admin.getWritableDatabase();
 
                 String nom = nombre.getText().toString();
                 String ape = apellido.getText().toString();
+
 // comenzamos a darle funcionalidad a los registros
                 if (!nom.isEmpty() && !ape.isEmpty()){
                     ContentValues datos = new ContentValues();
@@ -58,15 +59,15 @@ public class Registro extends AppCompatActivity {
                         BD.insert("registro", null, datos);
                         BD.close();
                     }catch (Exception e){
-                        Toast.makeText(Registro.this,e.toString(),Toast.LENGTH_LONG).show();
+                        Toast.makeText(registr.this,e.toString(),Toast.LENGTH_LONG).show();
                     }
 
                     limpiar();
-                    Toast.makeText(Registro.this,"se ha  guardado correctamente",Toast.LENGTH_LONG).show();
-                    Intent i = new Intent(Registro.this, paginaprincipal.class);
+                    Toast.makeText(registr.this,"se ha  guardado correctamente",Toast.LENGTH_LONG).show();
+                    Intent i = new Intent(registr.this,paginaprincipal.class);
                     startActivity(i);
                 }else {
-                    Toast.makeText(Registro.this,"rellene los campos",Toast.LENGTH_LONG).show();
+                    Toast.makeText(registr.this,"rellene los campos",Toast.LENGTH_LONG).show();
                 }
             }
         });
